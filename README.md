@@ -15,11 +15,27 @@ Key facts:
 
 ## Webinar Part 1: STACK JupyterHub 101
 - Persistent user workspace
+  - pre-pulled **DestinE-DataLake-Lab**
 - Pre-configured development environment
   - DEDL Python Kernel
-  - JupyterLab extensions
+  ```
+    mamba list -n python_dedl
+  ```
+  - JupyterLab extensions (Git, eodag-lab-extension, jupyterlab-s3-browser)
+    - eodag-lab-extension
+      - Example, select dedl (Provider), Product Type: EO.EUM.DAT.METOP.ASCSZF1B, 11/11/2025 to 19/11/2025
+      - "Preview Results"
+      - Go back, open an empty notebook and click "Generate Code"
+      - Go back to "Preview results" again, select one item and click generate code
+      - execute the code in the notebook
   - CLI tools (s3cmd, ...) 
 
 ### How to get a source code repository cloned into JupyterLab?
 
 We will clone this repository to the persistent user workspace.
+
+### How to incorporate Islet Storage Service?
+List buckets via Python vs. JupyterLab S3 Browser vs s3cmd
+
+[Example Notebook](01-s3-access.ipynb)
+
