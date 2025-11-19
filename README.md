@@ -39,3 +39,13 @@ List buckets via Python vs. JupyterLab S3 Browser vs s3cmd
 
 [Example Notebook](01-s3-access.ipynb)
 
+
+### DEDL STACK service Dask
+
+Introduction to the service
+
+[Reference Notebook](02-dask.ipynb)
+
+## Webinar Part 2: Pakistan Flood Use Case
+
+https://github.com/destination-earth/DestinE_EUMETSAT_PakistanFlood_2022
